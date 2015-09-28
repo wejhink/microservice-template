@@ -25,7 +25,7 @@ class PyTest(TestCommand):
 
 setup(
     name='{{cookiecutter.repo_name}}',
-    version='0.0.1',
+    version='{{cookiecutter.version}}',
     description='Microservice :)',
     author='{{cookiecutter.full_name}}',
     author_email='{{cookiecutter.email}}',
